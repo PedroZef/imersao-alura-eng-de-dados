@@ -6,6 +6,27 @@
 
 > **Comece por aqui:** [docs/comece-aqui.md](docs/comece-aqui.md) — o percurso pelo navegador, do download dos CSVs à primeira consulta, sem instalar nada.
 
+## Como usar — resumo passo a passo (Databricks Free Edition)
+
+![Jornada passo a passo da engenharia de dados: dos arquivos crus da ANAC ao agente de IA](docs/imgs/IA_DADOS.png)
+
+O caminho completo, dos arquivos crus ao agente de IA, usa todos os serviços
+gratuitos do Databricks nesta ordem:
+
+1. **Workspace + Compute serverless** — conta Free Edition e execução sem cluster.
+2. **Unity Catalog** — catálogo `voebem` com schemas `bronze`/`silver`/`gold` e volume `arquivos`.
+3. **Volumes** — envio dos 15 CSVs da ANAC.
+4. **Notebooks** — ingestão Bronze, transformação Silver e governança Gold.
+5. **SQL Editor** — consultas sobre `voebem.gold.*` (gabarito em `sql/gabarito/`).
+6. **Spark Declarative Pipelines** — qualidade dos dados: marca, audita e quarentena.
+7. **Jobs** — orquestração e agendamento dos notebooks e pipelines.
+8. **Genie Code** — IA assistiva dentro do notebook.
+9. **Genie Space** — agente que responde em linguagem natural sobre a tabela OBT.
+10. **Git + GitHub** — publicação e divulgação do projeto.
+
+> Guia completo de cada serviço (incluindo os limites da Free Edition):
+> [docs/servicos-free-edition.md](docs/servicos-free-edition.md).
+
 
 
 
@@ -187,20 +208,12 @@ Modelar a camada Gold utilizando o conceito de One Big Table (OBT), unindo fatos
 Explorar rastreabilidade e linhagem de dados através do Unity Catalog, incluindo o registro de eventos de qualidade.
 
 
-
-
-
 \## Aula 05
-
-
 
 Publique seu pipeline e desbrave sua Carreira em Dados com IA
 
-Participe e vá mais fundo
 
-Aula 05 + Encerramento
-
-
+Encerramento
 
 Links importantes para você acompanhar a imersão
 
@@ -217,8 +230,6 @@ Transformando dados em insights: como criar um relatório baseado em análises d
 Divulgue seu projeto
 
 Quem compartilha seus projetos ganha mais visibilidade no mercado. Poste seu progresso no LinkedIn e use a hashtag: #EngenhariadeDados
-
-
 
 Assim você pode trocar experiências com outros participantes e até chamar a atenção de recrutadores.
 

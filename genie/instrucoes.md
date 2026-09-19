@@ -33,6 +33,7 @@ COMO CALCULAR PERCENTUAL DE ATRASO (sempre assim):
   ROUND(100.0 * try_divide(
       SUM(CASE WHEN partida_pontual = false THEN 1 ELSE 0 END),
       SUM(CASE WHEN partida_pontual IS NOT NULL THEN 1 ELSE 0 END)), 2)
+      
 O denominador é o número de voos que TÊM a métrica, não o total de voos. Usar o total
 infla o percentual, porque cancelados e voos sem horário programado entram como atraso.
 Use try_divide, e não a barra de divisão, para não quebrar em grupos sem denominador.

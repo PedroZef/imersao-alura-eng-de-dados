@@ -6,6 +6,8 @@
 
 > **Comece por aqui:** [docs/comece-aqui.md](docs/comece-aqui.md) — o percurso pelo navegador, do download dos CSVs à primeira consulta, sem instalar nada.
 
+> **Comandos de pipeline novo (UI + CLI):** [docs/comandos-pipeline.md](docs/comandos-pipeline.md) — como criar, disparar, acompanhar e operar pipelines no Databricks.
+
 ## Sumário
 
 - [Como usar — resumo passo a passo (Databricks Free Edition)](#como-usar--resumo-passo-a-passo-databricks-free-edition)
@@ -144,6 +146,26 @@ Quem compartilha seus projetos ganha mais visibilidade no mercado. Poste seu pro
 Assim você pode trocar experiências com outros participantes e até chamar a atenção de recrutadores.
 
 **Links importantes:** Databricks · Base de Voos · Arquivos do Dataset · Códigos da Imersão
+
+## Galeria — prints do Databricks (passo a passo)
+
+Espaços reservados para os prints reais. Salvando as capturas em `docs/imgs/` com
+os nomes abaixo, elas passam a aparecer aqui automaticamente ao publicar.
+
+### Cadastro Free Edition
+
+![Print do cadastro Databricks Free Edition](docs/imgs/print-cadastro-free-edition.png)
+> **Como capturar:** tela inicial depois do login, mostrando o workspace. Adicione em `docs/imgs/print-cadastro-free-edition.png`.
+
+### Catalog com o catálogo voebem
+
+![Print do Catalog com catálogo voebem (bronze, silver, gold e volume)](docs/imgs/print-catalog-voebem.png)
+> **Como capturar:** menu **Catalog** → expanda `voebem` mostrando schemas `bronze`/`silver`/`gold` e o volume `arquivos`. Adicione em `docs/imgs/print-catalog-voebem.png`.
+
+### Tela do Genie Space
+
+![Print do Genie Space de perguntas em linguagem natural](docs/imgs/print-genie-space.png)
+> **Como capturar:** menu **Genie** → seu espaço com uma pergunta respondida. Adicione em `docs/imgs/print-genie-space.png`.
 
 ## Estrutura do repositório
 
